@@ -2,7 +2,7 @@
 
 Predict whether a customer will subscribe to a bank product using structured data and modern ML. We compare Decision Tree, Random Forest, XGBoost, and LightGBM, try stacking, and pick LightGBM for deployment based on performance, efficiency, and simplicity.
 
-Full methodology and business insights are in Bank_Product_Subscription_Prediction_Report.docx (In Chinese).
+Full methodology and business insights are in Bank_Product_Subscription_Prediction_Report.pdf (In Chinese).
 
 - Data: 30,000 records from Tianchi; target: subscribe (yes/no)
 - Metrics: AUC (primary), F1 (secondary), plus accuracy and confusion matrix
@@ -26,11 +26,11 @@ Key drivers from the report: duration, emp_var_rate, pdays, campaign, month.
 1. Environment
 - Python 3.9+
 - Install: pandas, numpy, scikit-learn, lightgbm, xgboost, optuna, joblib, matplotlib, seaborn
-1. Data
+2. Data
 - Place train.csv and test.csv locally
 - Index column: id
 - Target: subscribe in {'yes','no'}
-1. Run
+3. Run
 - Steps in code/notebook:
     - Preprocess (encode + scale)
     - Optuna tuning per model (models saved as .pkl)
