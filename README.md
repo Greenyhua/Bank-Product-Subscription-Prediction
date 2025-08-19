@@ -1,4 +1,4 @@
-# Bank Product Subscription Prediction (LightGBM-centric)
+# Bank Product Subscription Prediction (LightGBM)
 
 Predict whether a customer will subscribe to a bank product using structured data and modern ML. We compare Decision Tree, Random Forest, XGBoost, and LightGBM, try stacking, and pick LightGBM for deployment based on performance, efficiency, and simplicity.
 
